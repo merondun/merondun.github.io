@@ -5,8 +5,13 @@
 	<title>Publications</title>
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<style>
-	.box.alt.container > section:before {
+	/* Remove vertical line down the full page */
+	.wrapper::before,
+	.container::before,
+	#main::before {
 		border-left: none !important;
+		background: none !important;
+		content: none !important;
 	}
 	</style>
 </head>
@@ -33,20 +38,18 @@
 		<div class="box alt container">
 
 			<section class="feature left" style="display: flex; align-items: center; gap: 2rem; margin-bottom: 1rem;">
-				<div style="flex: 0 0 25%; max-width: 25%;">
+				<div style="flex: 0 0 40%; max-width: 40%;">
 					<a href="https://scholar.google.com/citations?hl=en&user=NPm1ClMAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">
-						<img src="images/justin.png" alt="justin" style="width: 75%; max-width: 250px; height: auto; display: inline-block;" />
+						<img src="images/justin.png" alt="justin" style="width: 75%; max-width: 400px; height: auto; display: inline-block;" />
 					</a>
 				</div>
-				<div class="content" style="flex: 0 0 75%; max-width: 75%;">
+				<div class="content" style="flex: 0 0 60%; max-width: 60%;">
 					<p>
 						I am currently a postdoctoral scientist with the United States Dept. of Agriculture - Agricultural Research Service, developing bioinformatic tools for genome analysis while studying the evolutionary history of tropical crops like breadfruit and guava. I did my PhD at LMU Munich under Jochen B. W. Wolf on cuckoo genomics and crow epigenetics, and my MSc under Aaron B. A. Shafer at Trent University in wolf genetics and lynx epigenetics.
 					</p>
 					<p>
-						<a href="pdfs/Merondun-CV_202505.pdf" target="_blank">
-							You can find my CV here.
-						</a>
-						And can email me at heritabilities [@] gmail.com
+						
+							You can find my CV <a href="pdfs/Merondun-CV_202505.pdf" target="_blank">here</a> and email me at heritabilities [@] gmail.com
 					</p>
 				</div>
 			</section>

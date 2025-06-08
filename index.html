@@ -11,8 +11,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<style>
-		.box.alt.container > section:before {
+		/* Remove vertical line down the full page */
+		.wrapper::before,
+		.container::before,
+		#main::before {
 			border-left: none !important;
+			background: none !important;
+			content: none !important;
 		}
 		</style>
 	</head>

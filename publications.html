@@ -5,8 +5,13 @@
 	<title>Publications</title>
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<style>
-	.box.alt.container > section:before {
+	/* Remove vertical line down the full page */
+	.wrapper::before,
+	.container::before,
+	#main::before {
 		border-left: none !important;
+		background: none !important;
+		content: none !important;
 	}
 	</style>
 </head>
@@ -29,7 +34,7 @@
 	<header class="major">
 		<h2>Publications</h2>
 		<small>
-			<p style="font-size: 2rem; line-height: 1.4;">
+			<p style="font-size: 1.75rem; line-height: 1.4;">
 				PDFs available by clicking the citation. Web links available by clicking on the graphic summary.<br>
 				All papers are the intellectual property of their respective publishers. These documents are under copyright and are provided for personal and research use only. Redistribution, reproduction, or use for commercial purposes without the permission of the copyright holders is strictly prohibited.
 			</p>
@@ -39,12 +44,12 @@
 		<div class="box alt container">
 
 			<section class="feature left" style="display: flex; align-items: center; gap: 2rem; margin-bottom: 1rem;">
-				<div style="flex: 0 0 25%; max-width: 25%;">
+				<div style="flex: 0 0 30%; max-width: 30%;">
 					<a href="https://www.nature.com/articles/s41467-025-55989-6" target="_blank">
-						<img src="images/primer.png" alt="Epigenetic review" style="width: 75%; max-width: 250px; height: auto; display: inline-block;" />
+						<img src="images/primer.png" alt="Epigenetic review" style="width: 75%; max-width: 300px; height: auto; display: inline-block;" />
 					</a>
 				</div>
-				<div class="content" style="flex: 0 0 75%; max-width: 75%;">
+				<div class="content" style="flex: 0 0 70%; max-width: 70%;">
 					<p>
 						Understanding the evolutionary role of epigenetics requires assessing its heritability, sources, and integration with population genetics while addressing methodological challenges.
 					</p>
@@ -57,12 +62,12 @@
 			</section>
 
 			<section class="feature right" style="display: flex; align-items: center; gap: 2rem; margin-bottom: 1rem;">
-				<div style="flex: 0 0 25%; max-width: 25%;">
+				<div style="flex: 0 0 30%; max-width: 30%;">
 					<a href="https://www.nature.com/articles/s41467-025-55989-6" target="_blank">
-						<img src="images/caracal_denning.png" alt="Caracal denning" style="width: 75%; max-width: 250px; height: auto; display: inline-block;" />
+						<img src="images/caracal_denning.png" alt="Caracal denning" style="width: 75%; max-width: 300px; height: auto; display: inline-block;" />
 					</a>
 				</div>
-				<div class="content" style="flex: 0 0 75%; max-width: 75%;">
+				<div class="content" style="flex: 0 0 70%; max-width: 70%;">
 					<p>
 						Caracals near Cape Town den in dense cover, exhibit seasonal birthing, and adjust home ranges to balance offspring care and foraging.
 					</p>
@@ -75,12 +80,12 @@
 			</section>
 
 			<section class="feature left" style="display: flex; align-items: center; gap: 2rem; margin-bottom: 1rem;">
-				<div style="flex: 0 0 25%; max-width: 25%;">
+				<div style="flex: 0 0 30%; max-width: 30%;">
 					<a href="https://www.science.org/doi/10.1126/sciadv.adl5255" target="_blank">
-						<img src="images/plumage.png" alt="Cuckoo plumage" style="width: 75%; max-width: 250px; height: auto; display: inline-block;" />
+						<img src="images/plumage.png" alt="Cuckoo plumage" style="width: 75%; max-width: 300px; height: auto; display: inline-block;" />
 					</a>
 				</div>
-				<div class="content" style="flex: 0 0 75%; max-width: 75%;">
+				<div class="content" style="flex: 0 0 70%; max-width: 70%;">
 					<p>
 						Common cuckoo females are either gray or rufous, while all males are gray. This female polymorphism is encoded by the matrilineal genome, and the haplotypes have existed since before the species split with a sister taxon, the Oriental cuckoo.
 					</p>
