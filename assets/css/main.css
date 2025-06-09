@@ -2763,23 +2763,12 @@ input, select, textarea {
 		}
 
 		#header .logo {
-			background: #4eb980;
-			border-radius: 100%;
-			color: #ffffff;
-			cursor: default;
-			display: inline-block;
-			font-size: 2.25em;
-			height: 2.35em;
-			line-height: 2.35em;
-			margin: 0 0 0.75em 0;
-			text-align: center;
-			width: 2.35em;
+			background: none !important;
+			border-radius: 0 !important;
+			width: auto !important;
+			height: auto !important;
+			line-height: normal !important;
 		}
-
-			#header .logo.fa-paper-plane-o:before {
-				left: -0.075em;
-				position: relative;
-			}
 
 		#header h1 {
 			font-size: 2.5em;
@@ -3300,7 +3289,3 @@ input, select, textarea {
 				}
 
 	}
-
-.image:after {
-	display: none !important;
-}
