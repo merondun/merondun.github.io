@@ -2174,19 +2174,7 @@ input, select, textarea {
 	}
 
 		.image:after {
-			-moz-transition: opacity 0.25s ease-in-out;
-			-webkit-transition: opacity 0.25s ease-in-out;
-			-ms-transition: opacity 0.25s ease-in-out;
-			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
-			content: '';
-			display: block;
-			height: 100%;
-			left: 0;
-			opacity: 0.2;
-			position: absolute;
-			top: 0;
-			width: 100%;
+			content: none !important;
 		}
 
 		.image img {
@@ -2611,10 +2599,12 @@ input, select, textarea {
 
 /* Feature */
 
-	.feature {
-		position: relative;
-		height: 20em;
-	}
+		.feature {
+			display: flex;
+			align-items: center;
+			gap: 2em;
+			margin-bottom: 4em;
+		}
 
 		.feature:after {
 			clear: both;
@@ -2627,11 +2617,8 @@ input, select, textarea {
 		}
 
 		.feature .image {
-			display: inline-block;
-			height: 100%;
-			overflow: hidden;
-			position: relative;
-			width: 50%;
+			flex: 1;
+			max-width: 50%;
 		}
 
 			.feature .image img {
@@ -2650,10 +2637,8 @@ input, select, textarea {
 		}
 
 		.feature .content {
-			display: inline-block;
+			flex: 1;
 			padding: 3.5em;
-			vertical-align: middle;
-			width: 48%;
 		}
 
 			.feature .content h3 {
