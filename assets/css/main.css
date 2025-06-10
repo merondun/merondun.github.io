@@ -2599,12 +2599,11 @@ input, select, textarea {
 
 /* Feature */
 
-		.feature {
-			display: flex;
-			align-items: center;
-			gap: 2em;
-			margin-bottom: 4em;
-		}
+	.feature {
+		position: relative;
+		margin-bottom: 4em; /* add spacing between sections ADDED THIS, REMOVED height: 20em; */
+		clear: both; ; /* add spacing between sections ADDED THIS */
+	}
 
 		.feature:after {
 			clear: both;
@@ -2617,8 +2616,11 @@ input, select, textarea {
 		}
 
 		.feature .image {
-			flex: 1;
-			max-width: 50%;
+			display: inline-block;
+			height: 100%;
+			overflow: hidden;
+			position: relative;
+			width: 50%;
 		}
 
 			.feature .image img {
@@ -2637,8 +2639,10 @@ input, select, textarea {
 		}
 
 		.feature .content {
-			flex: 1;
+			display: inline-block;
 			padding: 3.5em;
+			vertical-align: middle;
+			width: 48%;
 		}
 
 			.feature .content h3 {
