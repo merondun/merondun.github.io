@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://merondun.github.io/sitemap.xml
+
