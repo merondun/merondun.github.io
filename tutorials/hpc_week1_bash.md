@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Week 1: Bash and HPC Basics
-permalink: /tutorials/hpc_week1_bash/
+permalink: /tutorials/hpc_week1_bash
 ---
 
 # Week 1: Bash and HPC Basics for Bioinformatics
