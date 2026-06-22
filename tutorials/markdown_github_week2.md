@@ -1,8 +1,8 @@
-\---
+---
 layout: default
 title: Week 2: Markdown & Github project organization
 permalink: /tutorials/markdown_github_week2
-\---
+---
 
 
 
