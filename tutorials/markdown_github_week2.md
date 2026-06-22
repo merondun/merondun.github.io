@@ -6,7 +6,7 @@ permalink: /tutorials/markdown_github_week2
 
 
 
-# Coding Documentation with Markdown and GitHub
+# Week 2: Markdown & Github project organization
 
 Bioinformatic projects can become an absolutely nightmare when documentation is scattered across old folders, forgotten individual scripts, and files named things like:
 
